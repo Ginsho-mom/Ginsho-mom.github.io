@@ -81,11 +81,12 @@ th, td {
 ------------------------------ */
 
 .youtube {
-  max-width: 100%;
-  height: 315px; /* YouTube の高さ */
+  width: 100%;
+  aspect-ratio: 16 / 9;
 }
 
 .op {
-  max-width: 100%;
-  height: 600px; /* OpenProcessing の高さ */
+  width: 100%;
+  aspect-ratio: 1 / 1;
 }
+

@@ -3,7 +3,7 @@
 -------------------- */
 
 :root {
-  --theme-color: #00a0a0;
+--theme-color: #ff9ecb;
 }
 
 * {
@@ -74,4 +74,13 @@ th {
 th, td {
   border: solid 1px #f0f0f0;
   padding: 0.5rem;
+}
+
+/* -------------------------
+ Open Processingの表示サイズ  
+---------------------------- */
+
+iframe {
+  max-width: 100%;
+  height: auto;
 }
